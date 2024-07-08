@@ -7,7 +7,6 @@ const TodoList = () =>{
     const [todos, setTodos] =useState([])
 
     const remove = id =>{
-        console.log(id)
         setTodos(todos.filter(todo => todo.id !== id))
     }
 

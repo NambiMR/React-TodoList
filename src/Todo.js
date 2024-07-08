@@ -7,7 +7,6 @@ const Todo= ({todo,remove,update,toggleComplete }) =>{
     const [task, setTask]=useState(todo.task)
 
     const handleClick = e => {
-        console.log(e.target.id)
         remove(e.target.id)
     }
 
